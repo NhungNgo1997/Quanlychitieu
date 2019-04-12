@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quản Lý Chi Tiêu</string>
+    <string name="close" />
+    <string name="open" />
+</resources>

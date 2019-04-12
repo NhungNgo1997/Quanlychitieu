@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ngokimnhung.quanlychitieu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SuaKhoanChiActivity"></activity>
+        <activity android:name=".SuaKhoanThuActivity" />
+        <activity android:name=".SuaLoaiChiActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DangKyActivity" />
+        <activity android:name=".ThongKeActivity" />
+        <activity android:name=".ThongKe_Fragment" />
+        <activity android:name=".QuanLyThu_Fragment" />
+        <activity android:name=".QuanLyChi_Fragment" />
+        <activity android:name=".GioiThieu_Fragment" />
+        <activity android:name=".KhoanThu_Fragment" />
+        <activity android:name=".LoaiThu_Fragment" />
+        <activity android:name=".KhoanChi_Fragment" />
+        <activity android:name=".LoaiChi_Fragment" />
+        <activity android:name=".SuaLoaiThuActivity" />
+    </application>
+
+</manifest>
